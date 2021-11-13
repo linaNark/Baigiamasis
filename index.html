@@ -1,0 +1,557 @@
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/e57c2904bb.js" crossorigin="anonymous"></script>
+  <!-- <link rel="stylesheet" href="app/css/style.css"> -->
+  <link rel="stylesheet" href="b.css">
+
+
+  <style media="screen">
+    /* h2{
+font-size:35px;
+text-align:center;
+background: #787345;
+transition: 1s;
+border: 1px solid gold;
+border-radius: 50px;
+font-family:verdana;
+} */
+
+    h2::before {
+
+      position: absolute;
+      /* transform: translateX(100%), rotate(180); */
+      width: 50%;
+      height: 30%;
+      border-radius: 550px;
+      transition: 1s;
+      z-index: -1;
+    }
+
+    h2:hover::after {
+      content: "";
+      position: absolute;
+    }
+
+
+    button:hover {
+      cursor: pointer;
+    }
+
+    .tab {
+      display: none;
+    }
+
+    .img1 {
+      width: 200px;
+      height: 150px;
+      border-radius: 10px;
+      margin-left: 30px;
+    }
+
+    button {
+      margin-left: 30px;
+      padding: 0px;
+      font-size: 18px;
+      font-family: verdana;
+      width: 100px;
+      height: 50px;
+      background: gold;
+      border: 5px solid #787345;
+      border-radius: 10px;
+      color: #787345;
+      content-align: center;
+    }
+
+    button:hover {
+      background-color: #1b1703;
+      color: white;
+    }
+  </style>
+  <title></title>
+</head>
+
+<body>
+
+  <!-- Tikras headeris -->
+  <header>
+
+  </header>
+
+  <div class="text-white bg-dark">
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-1">
+        <img style="width: 100%;" src="cheshire-county-hygiene-services.png" alt="Cinque">
+      </div>
+      <div class="col-sm-3"></div>
+      <div class="col-sm-6">
+        <ul class="bar">
+          <li class="na"><a href="#home">Features</a></li>
+          <li class="na"><a href="#news">About</a></li>
+          <li class="na"><a href="#contact">Pricing</a></li>
+          <li class="na"><a href="#news">Rewiews</a></li>
+          <li class="na"><a href="#contact">Contact</a></li>
+          <li class="na"><a class="active" href="#about">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container container0 text-white bg-dark">
+    <div class="row">
+      <div class="col-sm-7">
+        <div class="row">
+          <div class="col-sm-6">
+            <img style="width: 100%;" src="cheshire-county-hygiene-services.png" alt="Cinque" width="" height="">
+          </div>
+          <div class="col-sm-6">
+          </div>
+        </div>
+        <H1>Explained propriety of our perpetual to you</h1>
+        <p> __________</p>
+        <p>Insipidity the sufficient disrection imprudence resoliution sir him decisively. Proceed how any engaged visitor. Explained propriety of out perpetual his you. Feel sold off nay rose met you. We so entreaties cultivated astonished is.</p>
+
+        <div>
+          <button type="button" class="signup-button btn btn-outline-light">Download</button>
+        </div>
+      </div>
+
+
+      <div class="col-sm-5">
+        <div class="card bg-white ">
+
+
+          <div class="text-dark">
+            <h2 style="padding:5% 5% 5% 5%;text-align:center" class="bg-light align-middle">Try Your <span style="color:orange;">FREE</span> Trial Today</h2>
+
+          </div>
+          <div class="card-body" style="padding-left:15%;">
+
+            <p class="text-dark font-weight-bold">Your details</p>
+
+
+            <form action="index.html" method="post">
+              <div class="form-group">
+                <div class="try-free-forma">
+                  <input type="text" id="name" name="name" placeholder="First name">
+                </div>
+                <input type="text" id="name" name="name" placeholder="Last name"><br>
+                <input type="number" placeholder="Phone number"><br>
+              </div>
+
+              <p class="text-dark font-weight-bold">Type of subscription </p>
+              <div class="text-dark font-weight-bold " style="font-size:xx-small;">
+                <input type="radio" id="monthly" value="MONTHLY">
+                  <label for="MONTHLY">MONTHLY</label>
+                  <input type="radio" id="YEARLY" value="YEARLY">
+                  <label for="YEARLY">YEARLY</label></br>
+              </div>
+
+            </form>
+
+          </div>
+          <div class="btn btn-success btn-lg btn-block">
+            <button type="button" class="signup-button btn  col-sm-6">GET STARTED</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- 1.5 sekcija sekcija -->
+  <div class="bg-dark">
+    <div class="row">
+      <div class="col-sm-6">
+
+      </div>
+      <div class="col-sm-1">
+
+      </div>
+      <div class="col-sm-1">
+
+      </div>
+      <div class="col-sm-1">
+
+      </div>
+      <div class="col-sm-1">
+
+      </div>
+      <div class="col-sm-1">
+
+      </div>
+      <div class="col-sm-1">
+
+      </div>
+    </div>
+  </div>
+  <!-- Antra sekcija -->
+
+  <!-- Tabai -->
+  <div class="conteiner">
+    <div class="row bg-select">
+      <div class="col-sm-8">
+        <div class="row" style="padding: 10% 10% 10% 2%;">
+          <div class="col-sm-3">
+            <div class="tabs">
+              <button onclick="changeTab(event, 'pirmas')">Register</button>
+              <button onclick="changeTab(event, 'antras')">Apply</button>
+              <button onclick="changeTab(event, 'trecias')">Receive</button>
+            </div>
+          </div>
+
+          <div class="col-sm-9 text-white">
+            <div class="tab" id="pirmas" style="display:block; ">
+              <!-- <img class="img1"src="https://github.com/linaNark/Tabai/blob/main/img3.jpg?raw=true" alt="Helovynas"> -->
+              <h1>Tabs with soft transitioning effect. Explained propriety of out perpetual his you.</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+
+
+            <div class="tab" id="antras">
+              <!-- <img class="img1" src="https://github.com/linaNark/Tabai/blob/main/img2.jpg?raw=true" alt="Helovynas"> -->
+              <h1>Explained propriety of out perpetual his you. Tabs with soft transitioning effect. </h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p>!!!!</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+
+            <div class="tab" id="trecias">
+              <!-- <img class="img1" src="https://github.com/linaNark/Tabai/blob/main/img1.jpg?raw=true" alt="Helovynas"> -->
+              <h1>WoW Much tabs. Very creative. Such blockchain. WoW </h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Antra row sekcija su paveiksliukais -->
+      <div class="col-sm-4">
+        <div style="padding: 10% 10% 10% 10%;">
+          <div class="row">
+            <div class="col-sm-6">
+              <img src="photo-1543364195-bfe6e4932397.png" style="width:100%" alt="Cinque" width="" height="">
+            </div>
+            <div class="col-sm-6">
+              <img src="photo-1543364195-bfe6e4932397.png" style="width:100%" alt="Cinque" width="" height=""> </br>
+            </div>
+          </div>
+          <div class="row">
+            <img src="photo-1448387473223-5c37445527e7@2x.png" alt="Cinque" width="400" height="236">
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  </div>
+  </div>
+
+  <!-- Trecia sekcija -->
+
+  <div class="text-white bg-dark">
+    <div class="row">
+      <div class="col-sm-5 align-self-center">
+
+        <img style="padding-left: 15%" src="cheshire-county-hygiene-services.png" alt="Cinque" width="" height="">
+
+      </div>
+
+
+      <div style="padding:5% 5% 5% 5%" class="col-sm-7 bg-dark text-white">
+        <div class="bg-dark text-white">
+          <h1>Erat tempor tempus erat malesuada</h1>
+          <hr style="color:orange; width:40%; height: 3px;">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <ul>
+            <li><strong>Title</strong><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat.</li>
+            <li> <strong>Title</strong><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+              est laborum.</li>
+
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  </div>
+  </div>
+
+  <!-- Ikonos -->
+  <div class="bg-white text-dark" style="padding:10% 10% 10% 10%">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h1>WHY THIS IS AWESOME </h1>
+        <hr style="color:orange; width:10%; margin-left:45% !important; margin-right:45% !important; height: 3px; ">
+        <p>Lorem ipsum dolor sit amet, adiscing elit.</p>
+      </div>
+    </div>
+
+    <div class="row text-center" style="padding-top: 5%;">
+
+      <div class="col-sm-4">
+        <div class="icons">
+          <div class="icon">
+            <i class="fas fa-desktop text-warning fa-3x"></i>
+          </div>
+          <div>
+            <h2>Thoughtful Design</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-4">
+        <div class="icons">
+          <div class="icon">
+            <i class="fas fa-layer-group  text-warning fa-3x"></i>
+          </div>
+          <div>
+            <h2>Well Crafted</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="icons">
+          <div class="icon">
+            <i class="far fa-check-circle text-warning fa-3x"></i>
+            <div>
+              <h2>Easy to Customize</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- kainos ir opcijos -->
+
+
+  <div class="text-white pricing-panel">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h1>PRICING OPTIONS</h1>
+        <hr style="color:#41D395; width:10%; margin-left:45% !important; margin-right:45% !important; height: 3px; ">
+        <p>Lorem ipsum dolor sit amet, adiscing elit.</p>
+      </div>
+    </div>
+
+    <div class="row" style="padding-top:5%">
+      <div class="col-sm-4">
+        <div class="box bg-dark">
+          <h1>Basic</h1>
+          <p class="price-number"><span style="font-size:30px;">$</span>0</p>
+          <p>Free for Life</p>
+          <hr style="color:#41D395; width:100%; height: 3px; margin-bottom: 0;">
+          <div class="text-secondary bg-white col-sm-12">
+
+            <p>1 GB OF SPACE</p>
+            <p>10 GB OF BANDWIDTH</p>
+            <p>3 WEBSITES</p>
+            <p>BASIC CUSTOMZATION</p>
+            <p>WORDPRESS INTEGRATION</p>
+            <p>EMAIL SUPPORT</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="box">
+          <h2>Professional</h2>
+          <p class="price-number" style="size:94px;"><span style="font-size:30px;">$</span>19</p>
+          <p>Monthly Payment</p>
+          <p style="background-color:#41D395; width:100%;margin-bottom: 0;">OUR MOST POPULAR</p>
+          <div class="text-secondary bg-white col-sm-12">
+            <p>5 GB OF SPACE</p>
+            <p>50 GB OF BANDWIDTH</p>
+            <p>12 WEBSITES</p>
+            <p>ADVANCED CUSTOMZATION</p>
+            <p>WORDPRESS INTEGRATION</p>
+            <p>EMAIL SUPPORT</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="box">
+          <h2>Enterprise</h2>
+          <p class="price-number"><span style="font-size:30px;">$</span>70</p>
+          <p>Monthly Payment</p>
+          <hr style="color:#41D395; width:100%; height: 3px;margin-bottom: 0;">
+          <div class="text-secondary bg-white col-sm-12">
+            <p>UNLIMITED SPACE</p>
+            <p>UNLIMITED BANDWIDTH</p>
+            <p>100 WEBSITES</p>
+            <p>ADVANCED CUSTOMZATION</p>
+            <p>WORDPRESS INTEGRATION</p>
+            <p>24/7 CUSTOMER SUPPORT</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Zmones kalba sekcija -->
+  <div class="standart-block-padding bg-white" style="width:100%">
+    <div class="row header-text text-center text-secondary ">
+      <h2 class="text-dark">What our customers are saying...</h2>
+      <hr style="color:#6696E2;width:10%; margin-left:45% !important; margin-right:45% !important; height: 3px;">
+    </div>
+
+    <div class="row">
+
+
+
+      <div class="col-sm-4 bg-white text-secondary">
+        <p class=" text-light rounded standart-block-padding" style="background-color:#6696E2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <div class="person text-align-center row">
+          <div class="Fre img col-sm-4">
+            <img src="avatar_2_u231.png" class="rounded-circle small-images" alt="Cinque" width="50" height="50">
+          </div>
+          <div class="col-sm-8">
+            <h4>Jerremy H. </h4>
+            <p style="color:#86878B"> Manager</p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-sm-4">
+        <p class=" text-light rounded standart-block-padding" style="background-color:#6696E2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <div class="person text-align-center row">
+          <div class="Fre img col-sm-4">
+            <img src="avatar_2_u231.png" class="rounded-circle small-images" alt="Cinque" width="50" height="50">
+          </div>
+          <div class="col-sm-8">
+            <h4>John S. </h4>
+            <p style="color:#86878B"> Freelancer</p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-sm-4">
+        <p class="text-light rounded standart-block-padding" style="background-color:#6696E2"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+        <div class="person text-align-center row">
+          <div class="Ser img col-sm-4">
+            <img src="avatar_2_u231.png" class="rounded-circle small-images" alt="Cinque" width="50" height="50">
+          </div>
+          <div class="col-sm-8">
+            <h4>Susan W.</h4>
+            <p style="color:#86878B"> Photographer</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- Contact us -->
+
+  <div class="text-white text-center standart-block-padding" style="background-color:#E27866">
+<div class="row " style="padding-bottom:10%">
+    <div class="col-sm-4 "> </div>
+    <div class="col-sm-4 text-center">
+      <h3>CONTACT US</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+      <div class="card bg-white ">
+
+        <div class="card-body" style="padding-left:15%;">
+          <form action="index.html" method="post">
+            <div class="form-group">
+              <div class="try-free-forma">
+                <input type="text" id="name" name="name" placeholder="First name">
+              </div>
+              <input type="text" id="name" name="name" placeholder="Last name"><br>
+              <input type="number" placeholder="Phone number"><br>
+            </div>
+
+            <div class="text-dark font-weight-bold" style="font-size:xx-small;">
+              <input type="radio" id="PERSONAL" value="PERSONAL">
+                <label for="PERSONAL">PERSONAL</label>
+                <input type="radio" id="COMPANY" value="COMPANY">
+                <label for="COMPANY">COMPANY</label></br>
+            </div>
+
+          </form>
+
+        </div>
+        <!-- <div class="btn btn-success btn-lg btn-block"> -->
+        <button type="button" class="signup-button text-center btn-success text-white col-sm-4 " style="margin-left:35%; margin-bottom:10%; font-size:small">SEND</button>
+        <!-- </div> -->
+      </div>
+    </div>
+
+    <div class="col-sm-4 "> </div>
+  </div>
+    <!-- ig juosta -->
+    <div class="bg-dark text-left" style="color:#E27866; padding:2%">
+      <div class="row sm-3">
+        <div class="col-sm-6 ">
+          <div class="social">
+            <i class="fab fa-facebook-f fa-3x icon-small-padding"></i>
+            <i class="fab fa-instagram fa-3x icon-small-padding "></i>
+            <i class="fab fa-twitter fa-3x icon-small-padding"></i>
+            <i class="fab fa-vk fa-3x icon-small-padding"></i>
+          </div>
+        </div>
+        <div class="col-sm-6 text-right text-secondary">
+          <p> 2019 Cheshire Country</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- uzdaro -->
+  </div>
+  </div>
+
+
+
+  <script type="text/javascript">
+    function changeTab(target, name) {
+      var tabs = document.getElementsByClassName("tab");
+      var tab = document.getElementById(name);
+      var buttons = document.getElementsByTagName("button");
+      for (var i = 0; i < tabs.length; i++) {
+        tabs[i].style.display = "none";
+        tab.style.display = "block";
+        buttons[i].classList.remove("active");
+      }
+      target.currentTarget.className = "active";
+    }
+  </script>
+</body>
+
+</html>
